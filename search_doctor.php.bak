@@ -1,0 +1,71 @@
+<?php include('headerPatients.php'); ?>
+
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SMART Doctor Appointment System</title>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+
+<section class="hero" id="hero">
+	<div class="container">
+		<h2 class="sub-headline">
+			<span class="first-letter">S</span>earch <span class="first-letter">D</span>octor
+		</h2>
+		<br><br><br><br>
+		<div class="search" style="background-color:;">
+		 <div class="formstyle" style="padding:70px;border: 1px solid lightgrey;margin-right: 293px;margin-bottom: 30px;background-color:#f3f3f8;color:#141313;width: 530px;margin-left: 400px;">
+					<form action="search_result.php" method="post" class="form-group">
+
+					
+					<label>
+						Search by Location:<select name="address" type="text" style="width: 110px;margin-right: 175px;" />
+							<option>-Select-</option>
+							<option>Manila Medical Center</option>
+							<option>Quezon City General Hospital</option>
+							<option>Makati Med</option>
+							<option>Mandaluyong International Hospital</option>
+						</select>
+
+					</label><br><br>
+					
+					<label>
+						 Doctor expertise:<select name="expertise" type="text" style="width: 110px;margin-right: 175px;" />
+												<option>-Select-</option>									
+												<option>Family Medicine</option>								
+												<option>Neurosurgery</option>
+												<option>Psychiatry</option>
+												<option>Cardiologist</option>
+												<option>Plastic Surgery</option>
+												<option>General Surgery</option>
+						</select>
+
+					</label>
+					<button name="submit" type="submit" style="border-radius: 3px;color:#000;margin-left: 145px;margin-top: 8px;">Search</button>
+					<br>
+					
+					</form>
+
+
+
+					
+		 	</div>
+	</div>
+	</div>
+</section>
+<!-- hero ends -->
+
+
+<?php include('footer.php'); ?>
+
+
+	
+</div>	<!--  containerFluid Ends -->
+
+
+
+	<script src="js/jquery-1.9.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	 
+	
