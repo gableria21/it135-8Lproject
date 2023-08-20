@@ -1,5 +1,7 @@
 # IT135-8L Project: SMART Doctor Tracking Appointment System 👩‍⚕️
 
+Course: IT135-8L - Web Systems and Technologies 2
+
 ### Description
 
 The “Smart Doctor Tracking Appointment System” being introduced for doctors,
